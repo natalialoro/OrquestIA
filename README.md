@@ -22,19 +22,13 @@ Este proyecto es una interfaz moderna e interactiva para un sistema de reservas,
 ```bash
 cd reserva-app
 2. Instala las dependencias
-bash
-Copiar
-Editar
+
 npm install
 3. Inicia el backend simulado (json-server)
-bash
-Copiar
-Editar
+
 npx json-server --watch db.json --port 3000
 4. En otra terminal, inicia la app
-bash
-Copiar
-Editar
+
 npm run dev
 Abre tu navegador en http://localhost:5173
 
