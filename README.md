@@ -14,36 +14,6 @@ Este proyecto es una interfaz moderna e interactiva para un sistema de reservas,
 
 ---
 
-## 📂 Estructura del proyecto
-
-reserva-app/
-│
-├── public/
-│
-├── src/
-│ ├── components/
-│ │ ├── DashboardStaff.jsx # Vista del mesero con las reservas
-│ │ ├── IngresoStaff.jsx # Pantalla de login del staff
-│ │ ├── ModalResumenReserva.jsx # Modal de confirmación para el cliente
-│ │ ├── PlanoRestaurante.jsx # Vista con las mesas seleccionables
-│ │ └── ReservaCliente.jsx # Pantalla del cliente para hacer reservas
-│ │
-│ ├── App.jsx # Rutas principales
-│ ├── index.css # Estilos base (Tailwind + AOS)
-│ └── main.jsx # Punto de entrada
-│
-├── db.json # Base de datos simulada (json-server)
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.js
-├── package.json
-└── README.md
-
-yaml
-Copiar
-Editar
-
----
 
 ## ⚙️ Instalación y ejecución
 
